@@ -1,0 +1,49 @@
+ {
+ 	"event":{
+      "seminar":[
+        {
+          "img": "http://localhost/tugas/Foto/1.jpg",
+          "judul":"International Education Expo 2017",
+          "tempat":" Ibis Style Hotel, Denpasar",
+          "tanggal":"12 Januari 2017",
+          "pembicara":"Ir.Assoc. Prof. Dr. Jimmy Mok Vee Hoong"
+          
+      },
+        {
+          "img": "http://localhost/tugas/Foto/2.jpg",
+          "judul":"The Role Language, Literature, Art, and Culture in the Development of National Character",
+          "tempat":"Gedung Auditorium Universitas Negri Malang, Malang",
+          "tanggal":"26-27 September 2017",
+          "pembicara":"Assoc. Prof. Peter Suwano, Ph.D., Prof. j. Prabhakara Rao"
+        },
+        {
+          "img": "http://localhost/tugas/Foto/3.jpg",
+          "judul":"Seminar Nasional Kimia",
+          "tempat":"Gedung Auditorium ITS Sukolilo, Surabaya",
+          "tanggal":"Sabtu, 4 November 2017",
+          "pembicara":" Leotinus A.Edison, Antonny Liem dsb"
+        },
+        {
+          "img": "http://localhost/tugas/Foto/4.jpg",
+          "judul":" Eco Idea od Upcycling and Waste Management with Innovation System Technology for Better Days",
+          "tempat":"Aula FMIPA Gedung C",
+          "tanggal":"22 Oktober 2017",
+          "pembicara":"Dr. Ir. Tri Rismaharini, M.T., DR. Ir. Agus Subekti, Msi., Jaya Lingga, A. Md, Ir. Paryanto, M.S"
+        },
+        {
+          "img": "http://localhost/tugas/Foto/5.jpg",
+          "judul":" Optimalisasi Pendidikan sebagai Upaya Peningkatan Ekonomi Menuju Tercapainya Sustainable Development Goals 2030",
+          "tempat":"Ruang Sidang Utama Rektorat UNY",
+          "tanggal":"15 April 2017",
+          "pembicara":"Prof. Dr. Arif Rahman, Dr. Ir. M Rudy Salahudin"
+        },
+        {
+          "img": "http://localhost/tugas/Foto/6.jpg",
+          "judul":" The Devvelopment of Language and Education toward Asean Economic Community",
+          "tempat":"Gedung Auditorium UNISSULA",
+          "tanggal":"Sabtu, 15 Januari 2017",
+          "pembicara":"H. Anis Malik Toha, Lc. MA Ph.D, Dr. Jantima Simpson, Atchara Purakom, Ph.D"
+        }
+      ]
+    }
+  }

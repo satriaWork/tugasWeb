@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <script src="jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div id="halaman1">
+        <div id="atas">
+            <div id="logo">
+                <a style="font-family: Cooper black;color: white;">Institute<br>
+				Telkom of Technology</a>
+            </div>
+
+            <div class="menu" id="link1" style="">
+                <p><a href="halaman1.html" style="text-decoration: none;">Home &ensp;</a>
+                    <a href="halaman1.html" style="text-decoration: none;">Abouts &ensp;</a>
+                    <a href="halaman3.html" style="text-decoration: none;">Research &ensp;</a>
+                    <a href="halaman2.php" style="text-decoration: none;">People &ensp;</a>
+                    <a href="halaman5.html" style="text-decoration: none;">Comment </a>
+                </p>
+            </div>
+
+            <div id="menu2">
+                <div class="dropdown" style="float: left;">
+                    <button class="dropbtn">Course
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+
+                <div class="dropdown" style="float: left;">
+                    <button class="dropbtn">University Life
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+
+                <div class="dropdown" style="float: left;">
+                    <button class="dropbtn">Research
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+
+                <div class="dropdown" style="float: left;">
+                    <button class="dropbtn">Global
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        
+
+        <h1>Seminars and Events</h1>
+
+
+        <div id="riset"></div>
+
+        <script type="text/javascript">
+            //var base_url = window.location.href;
+
+
+            var requestURL = 'halaman3.json';
+
+            var xhttp = new XMLHttpRequest();
+            xhttp.open('GET', requestURL);
+
+            xhttp.responseType = 'json';
+            xhttp.send();
+
+            xhttp.onload = function() {
+                var dataXhtp = xhttp.response;
+                var penelitian = dataXhtp.riset.penelitian;
+
+                var count = Object.keys(penelitian).length;
+
+                console.log(penelitian);
+                for (var i = 0; i < count; i++) {
+                    //var srcImgData = buku[i].img;
+                    var titleData = penelitian[i].judul;
+                    var anggotaData = penelitian[i].anggota;
+                    var bulanData = penelitian[i].bulan;
+                    var tahunData = penelitian[i].tahun;
+                    var deskripsiData = penelitian[i].deskripsi;
+
+                    var riset =
+                        '<div class=media>\
+          <div class=media-body>\
+            <h3 class=media-heading>' + titleData + '</h3>\
+            <span><strong>Anggota</strong> : ' + anggotaData + '</span> | \
+            <span><strong>bulan</strong> : ' + bulanData + '</span> | \
+            <span><strong>tahun</strong> : ' + tahunData + '</span>\
+            <p>' + deskripsiData + '</p>\
+          </div>\
+        </div> <br>';
+
+                    document.getElementById('riset').innerHTML = riset;
+                }
+            }
+        </script>
+
+
+
+        <div id="footer">
+            <div id="footer1">
+                <div id="footer11" style="width: 300px;margin: auto;margin-top: 20px;">
+                    <p style="font-family: Cooper black;color: white;font-size: 30px; margin:auto;">Part of<br>
+					Telkom Group</p>
+                </div>
+            </div>
+            <div id="footer2">
+                <p style="width: 200px;margin: auto;font-size: 20px;font-family: comic sans ms; color: yellow;margin-top: 20px;"><font style="font-weight: bold;font-size: 25px;">Information for</font>
+                    <br>
+                    <br>
+                    <a href="halaman1.html" style="color: white;">Home &ensp;</a>
+                    <br>
+                    <a href="halaman1.html" style="color: white;">Abouts &ensp;</a>
+                    <br>
+                    <a href="halaman3.html" style="color: white;">Research &ensp;</a>
+                    <br>
+                    <a href="halaman2.php" style="color: white;">People &ensp;</a>
+                    <br>
+                    <a href="halaman5.html" style="color: white;">Comment </a>
+                </p>
+            </div>
+            <div id="footer3">
+                <p style="width: 200px;margin: auto;font-size: 20px;font-family: comic sans ms; color: yellow;margin-top: 20px;"><font style="font-weight: bold;font-size: 25px;">Contact Us</font>
+                    <br>
+                    <br>
+                    <p href="" style="text-decoration: none; color: white;width: 200px;margin: auto;font-size: 20px;font-family: comic sans ms; color: white;margin-top: 20px;">Telp : (021)883-2231</p>
+                    < <p href="" style="text-decoration: none;color: white;width: 200px;margin: auto;font-size: 20px;font-family: comic sans ms; color: white;margin-top: 20px;">Jalan D.I. Panjaitan Nomor 21</p>
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

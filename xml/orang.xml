@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<peoples>
+	<orang >
+		<Name>Bedul Assegaf</Name>
+		<Position>Head of Group</Position>
+		<Telephone>(021)9821-3312</Telephone>
+		<Email>ba@gmail.com</Email>
+	</orang>
+	<orang >
+		<Name>Aceng Siberia</Name>
+		<Position>Academic Staff</Position>
+		<Telephone>(021)9823-9922</Telephone>
+		<Email>as@gmail.com</Email>
+	</orang>
+	<orang >
+		<Name>Kemed Syafiq</Name>
+		<Position>Academic Staff</Position>
+		<Telephone>(021)2839-1122</Telephone>
+		<Email>ks@gmail.com</Email>
+	</orang>
+	<orang >
+		<Name>Melehoy Hanafi</Name>
+		<Position>Academic Staff</Position>
+		<Telephone>(021)3773-2331</Telephone>
+		<Email>mh@gmail.com</Email>
+	</orang>
+</peoples>

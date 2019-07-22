@@ -1,0 +1,1 @@
+# Buka file halaman2.php terlebih dahulu

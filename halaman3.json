@@ -1,0 +1,20 @@
+ {
+ 	"riset":{
+      "penelitian":[
+        {
+          "judul":"Klasifikasi Konten Berita Dengan Metode Text Mining",
+          "anggota":"Kurniawan, Bambang Effendi, Syahril Sitompul, Opim Salim",
+          "bulan":"Juli",
+          "tahun":"2012",
+          "deskripsi":"Banyak instansi yang bergerak dalam penyaluran informasi atau berita sudah mulai menggunakan sisitem berbasis web untuk menyampaikan berita secara up to date."
+      },
+        {
+          "judul":"Text documents plagiarism detection using Rabin-Karp and Jaro-Winkler distance algorithms",
+          "anggota":"Leonardo, Brinardi Hansun, Seng",
+          "bulan":"Juni",
+          "tahun":"2017",
+          "deskripsi":"Plagiarism is an act that is considered by the university as a fraud by taking someone ideas or writings without mentioning the references and claimed as his own."
+        }
+      ]
+    }
+  }
